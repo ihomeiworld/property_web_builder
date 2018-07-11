@@ -29,7 +29,7 @@ module Pwb
         # TODO - use get_seed_content here
         # seed_content = footer_content_ppm.get_seed_content
 
-        footer_content_html.raw = "We are registered with the national association "
+        footer_content_html.raw = "Mia Liang"
         footer_content_html.save!
 
         # set up form_and_map_page_part (which is a rails_part)
@@ -42,7 +42,7 @@ module Pwb
         # below from content_html page_part
         expect(page).to have_content 'Content html raw'
 
-        expect(page).to have_content 'We are registered with the national association'
+        expect(page).to have_content 'Mia Liang'
       end
     end
   end
