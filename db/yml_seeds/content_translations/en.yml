@@ -29,17 +29,17 @@ en:
   home:
     landing_hero:
       landing_title_a:
-        Slogan of ihomeiworld
+        ihomeiworld
       landing_content_a: >
         <ul class="list-carousel">
           <li><i class="fa fa-check-square"></i> Let's work with Mia Liang</li>   
-          <li><i class="fa fa-check-square"></i> Let's find the best property for you</li>
+          <li><i class="fa fa-check-square"></i> Find the best property for you</li>
         </ul>
       landing_img:
         db/example_images/frontpage.jpg
 
     content_html:
-      main_content: <p><b>Important notice:</b>&nbsp; To be filled by Mia Liang for main content .</p>
+      main_content: <p><b>Important notice:</b>&nbsp; To be filled.</p>
 
     about_us_services:
       title_a: Find your home
