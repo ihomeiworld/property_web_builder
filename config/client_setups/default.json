@@ -89,6 +89,11 @@
       "localeVariants": ["it-IT"]
     },
     {
+      "labelTextTKey": "cn",
+      "fieldName": "cn",
+      "localeVariants": ["cn-CN"]
+    },    
+    {
       "labelTextTKey": "ko",
       "fieldName": "ko",
       "localeVariants": ["ko-KR"]

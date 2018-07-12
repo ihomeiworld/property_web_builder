@@ -1,0 +1,119 @@
+# https://raw.githubusercontent.com/tigrish/devise-i18n/master/rails/locales/cn.yml
+cn:
+  activerecord:
+    attributes:
+      user:
+        current_password: 
+        email: 
+        password: 
+        password_confirmation: 
+        remember_me: 
+        reset_password_token: 
+        unlock_token: 
+    models:
+      user: 
+  devise:
+    confirmations:
+      confirmed: "确认登录账号。"
+      new:
+        resend_confirmation_instructions: 
+      send_instructions: "请查收您的邮件获取下一步的信息。"
+      send_paranoid_instructions: "请查收您的邮件获取下一步的信息。"
+    failure:
+      already_authenticated: "已登录。"
+      inactive: "账号不存在。"
+      invalid: "账号或密码错误。"
+      last_attempt: "您还有一次登录机会。"
+      locked: "这个账号已经注销。"
+      not_found_in_database: "账号或密码错误。"
+      timeout: "请重新登录。"
+      unauthenticated: "请登录，或关闭账号。"
+      unconfirmed: "账号无效。"
+    mailer:
+      confirmation_instructions:
+        action: 
+        greeting: 
+        instruction: 
+        subject: "启用账号"
+      password_change:
+        greeting: 
+        message: 
+        subject: 
+      reset_password_instructions:
+        action: 
+        greeting: 
+        instruction: 
+        instruction_2: 
+        instruction_3: 
+        subject: "重设密码"
+      unlock_instructions:
+        action: 
+        greeting: 
+        instruction: 
+        message: 
+        subject: "账号解锁"
+    omniauth_callbacks:
+      failure: "由%{kind}登录，原因︰%{reason}。"
+      success: "%{kind}登录成功。"
+    passwords:
+      edit:
+        change_my_password: 
+        change_your_password: 
+        confirm_new_password: 
+        new_password: 
+      new:
+        forgot_your_password: 
+        send_me_reset_password_instructions: 
+      no_token: "请确定网址和密码正确。"
+      send_instructions: "请查收您的邮件获取下一步的信息。"
+      send_paranoid_instructions: "请查收您的邮件获取下一步的信息。"
+      updated: "成功更改密码，请重新登录。"
+      updated_not_active: "成功更改密码。"
+    registrations:
+      destroyed: "账号已经注销。"
+      edit:
+        are_you_sure: 
+        cancel_my_account: 
+        currently_waiting_confirmation_for_email: 
+        leave_blank_if_you_don_t_want_to_change_it: 
+        title: 
+        unhappy: 
+        update: 
+        we_need_your_current_password_to_confirm_your_changes: 
+      new:
+        sign_up: 
+      signed_up: "请注册，欢迎！"
+      signed_up_but_inactive: "请注册。"
+      signed_up_but_locked: "请注册。"
+      signed_up_but_unconfirmed: "请注册。"
+      update_needs_confirmation: "更新账号。"
+      updated: "更新账号。"
+    sessions:
+      already_signed_out: "登出成功。"
+      new:
+        sign_in: 
+      signed_in: "登录。"
+      signed_out: "登出。"
+    shared:
+      links:
+        back: 
+        didn_t_receive_confirmation_instructions: 
+        didn_t_receive_unlock_instructions: 
+        forgot_your_password: 
+        sign_in: 
+        sign_in_with_provider: 
+        sign_up: 
+    unlocks:
+      new:
+        resend_unlock_instructions: 
+      send_instructions: "请查收您的邮件获取下一步的信息。"
+      send_paranoid_instructions: "请查收您的邮件获取下一步的信息。"
+      unlocked: "请重新登录"
+  errors:
+    messages:
+      already_confirmed: "已启用，请登录。"
+      confirmation_period_expired: "请重新登录并在%{period}之内确认。"
+      expired: "请重新登录。"
+      not_found: "没有找到该记录"
+      not_locked: "没有找到"
+      not_saved: "有%{count}个问题，%{resource}保存。"
