@@ -5,156 +5,154 @@ cn:
   back: 返回
   changePassword: 更改密码
   contact:
-    emailSubject: Contact from your website
-    error: Sorry, there has been an error.
-    success: Thank you for your message. We will contact you soon!
-  contactUs: Contact
-  contactUsPrompt: Fill in the following form to contact us
+    emailSubject: 联系我们
+    error: 抱歉，发生错误。
+    success: 谢谢，我们会尽快联系你！
+  contactUs: 联系
+  contactUsPrompt: 请填写以下表格
   devise:
-    user_update_success: You have successfully updated your account.
-    user_update_success_title: Congratulations
-  editarPropiedad: Edit a property
-  email: Email
+    user_update_success: 成功更新表格。
+    user_update_success_title: 恭喜
+  editarPropiedad: 更改
+  email: 邮件
   'false': 'No'
-  findAProperty: Find a property
-  findByReference: Find by reference
+  findAProperty: 找房
+  findByReference: 房屋ID
   forRent: 出租
   forSale: 出售
-  go: Go
+  go: 确定
   labels:
-    create: Create
-    edit: Edit
-    latestProperties: Latest properties
-    new: New
-    ourServices: Our services
-    save: Save
-  leaveBlank: leave it blank if you don't want to change it
-  legalAdvice: Legal Notice
-  listadoPropiedades: List of properties
+    create: 创建
+    edit: 编辑
+    latestProperties: 最新的房屋
+    new: 新建
+    ourServices: 服务
+    save: 保存
+  leaveBlank: 如果没有更新，不需要填写
+  legalAdvice: 法律声明
+  listadoPropiedades: 房屋列表
   mailers:
-    confirm_registration: Please confirm your account through the link below
-    from: From
+    confirm_registration: 请确认你的账号
+    from: 从
     general_enquiry_targeting_agency:
-      title: General enquiry from your website
+      title: 咨询
     general_enquiry_targeting_enquirer:
       message_title: ''
       subject: ''
-    message: Message
-    phone: Tel
-    property: Property
+    message: 消息
+    phone: 电话
+    property: 房产
     property_enquiry_targeting_agency:
-      title: Enquiry regarding a property
-    received_on: Received on
-    welcome: Welcome
-  menu_admin: admin
-  message: Message
-  name: Name
+      title: 房产咨询
+    received_on: 收到
+    welcome: 欢迎
+  menu_admin: 管理
+  message: 消息
+  name: 名称
   navbar:
-    about-us: About Us
-    admin: Admin
-    buy: Properties to buy
-    contact-us: Contact
-    home: Home
-    legal: Legal Notice
-    privacy: Privacy Policy
-    rent: Properties to rent
-    sell: Sell
-  needCurrentPwd: we need your current password to confirm your changes
-  newPassword: New Password
-  noResultsForSearch: Sorry, no results found
-  nuevoPropiedad: New property
+    about-us: 关于我们
+    admin: 管理
+    buy: 买房
+    contact-us: 联系我们
+    home: 主页
+    legal: 法律声明
+    privacy: 权利声明
+    rent: 租房
+    sell: 卖房
+  needCurrentPwd: 输入现在的密码
+  newPassword: 新密码
+  noResultsForSearch: 抱歉，没有找到。
+  nuevoPropiedad: 新房产
   orderBy:
-    priceAscending: "↓ Price (ascending)"
-    priceDescending: "↑ Price (descending)"
+    priceAscending: "↓ 价格 (从高到低)"
+    priceDescending: "↑ 价格 (从低到高)"
   pages:
-    aboutUs: About us
-    sell: Sell
+    aboutUs: 关于我们
+    sell: 卖房
   placeHolders:
-    email: Your email
-    message: Write your message here
-    name: Your name
-    subject: Subject
-    tel: Fixed or mobile
+    email: 你的邮箱
+    message: 填写你的消息
+    name: 名字
+    subject: 标题
+    tel: 电话或手机
   # privacyPolicy: Privacy Policy
   property:
-    description: Description
-    details: Details
-    extras: Features
-    furniture: Furniture
-    goToProperty: View Property
-    highlightedProperty: Outstanding Property
-    locality: Locality
-    map: Map
-    monthlyRentalPriceHighSeason: Monthly Price (High Season)
-    monthlyRentalPriceLowSeason: Monthly Price (Low Season)
-    monthlyRentalPriceStandardSeason: Monthly Price (Standard Season)
-    operationType: Operation Type
-    price: Price
-    propertyType: Property Type
-    ref: Ref
-  propertyForRent: Property for rent
-  propertyForSale: Property for sale
-  propertyNotFound: Property not found
+    description: 描述
+    details: 细节
+    extras: 其他信息
+    furniture: 家具
+    goToProperty: 查看
+    highlightedProperty: 房产
+    locality: 位置
+    map: 地图
+    monthlyRentalPriceHighSeason: 月租 (高价时段)
+    monthlyRentalPriceLowSeason: 月租 (低价时段)
+    monthlyRentalPriceStandardSeason: 月租 (普通时段)
+    operationType: 操作类型
+    price: 价格
+    propertyType: 房屋类型
+    ref: 房屋参考号
+  propertyForRent: 出租
+  propertyForSale: 出售
+  propertyNotFound: 没有找到
   pwb:
     copyright: "%{company_name} Inc. All rights reserved."
-    createPrompt: Create your estate agency website
-    createTagLine: Please enter the details for your account
-    getStarted: Get started now
-    registerNow: Register now
-    tagLine: Professional websites for estate agents in minutes
-    tagLineExt: Beautiful websites that have to be seen to be believed.<br>No one
-      gets you online quicker.
-  requestPropertyInfo: Request info
-  search: Search
-  searchForProperties: Search for properties
+    createPrompt: 房屋代理网站
+    createTagLine: 账号信息
+    getStarted: 开始
+    registerNow: 注册
+    tagLine: 房屋代理网站
+    tagLineExt: 房屋代理网站
+  requestPropertyInfo: 请求信息
+  search: 搜索
+  searchForProperties: 搜索房屋
   selectpicker:
-    countSelectedText: Selected {0} of {1}
-    noneResultsText: No results found {0}
-    noneSelectedText: Nothing selected
-  send: Send
+    countSelectedText: 选择 {0} / {1}
+    noneResultsText: 没有找到 {0}
+    noneSelectedText: 没有选择
+  send: 发送
   setup:
-    claimSubdomain: Claim this url
-    createdSuccessfully: Site created successfully
-    goToYourSite: Go to your site
-    loggedInAs: 'Logged in as '
-    logout: Logout
-    selectUrl: Select a url
-    selectUrlMessage: You have successfully created an account - now select the url
-      for your new site
-    subdomain: subdomain
-    subdomainMissing: Please enter a name for the subdomain
-    thankYouForTrusting: Thank you for trusting %{company_name}
-    urlNotAvailable: Sorry, this url is not available
-    weAreCreatingSite: We are creating your site
-  signOut: Sign Out
+    claimSubdomain: 这个链接
+    createdSuccessfully: 创建成功
+    goToYourSite: 转到站点
+    loggedInAs: '登录 '
+    logout: 退出
+    selectUrl: 选择链接
+    selectUrlMessage: 创建成功
+    subdomain: 子域名
+    subdomainMissing: 请输入子域名
+    thankYouForTrusting: 谢谢 %{company_name}
+    urlNotAvailable: 抱歉，这个链接无效
+    weAreCreatingSite: 创建中
+  signOut: 退出
   simple_form:
     error_notification:
-      default_message: 'Please review the problems below:'
+      default_message: '请查看以下信息:'
     labels:
       search:
-        count_bathrooms: Bathrooms (min)
-        count_bedrooms: Bedrooms (min)
-        for_rent_price_from: Rent From (Monthly)
-        for_rent_price_till: Rent Till (Monthly)
-        for_sale_price_from: Price From
-        for_sale_price_till: Price Till
-        in_locality: Locality
-        in_zone: Zone
-        locality: Locality
-        property_state: Property State
-        property_type: Property Type
+        count_bathrooms: 卫生间 
+        count_bedrooms: 卧室 
+        for_rent_price_from: 月租最低
+        for_rent_price_till: 月租最高
+        for_sale_price_from: 最低价格
+        for_sale_price_till: 最高价格
+        in_locality: 位置
+        in_zone: 区域
+        locality: 位置
+        property_state: 州
+        property_type: 类型
     'no': 'No'
     required:
       mark: "*"
-      text: required
+      text: 要求
     'yes': 'Yes'
-  subject: Subject
-  tel: Telephone
+  subject: 标题
+  tel: 电话
   'true': 'Yes'
-  update: Update
+  update: 更新
   webContentSections:
-    aboutUs: About us
-    contactInformation: Contact information
-    home: Home
-    sell: Sell
-    tagLine: Tag Line
+    aboutUs: 关于我们
+    contactInformation: 联系信息
+    home: 主页
+    sell: 出售
+    tagLine: 标签
