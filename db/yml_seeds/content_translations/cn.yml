@@ -1,0 +1,62 @@
+---
+en:
+  website:
+    footer_content_html:
+      main_content:
+        <p>梁敏钰</p>
+      
+  legal:
+    content_html:
+      main_content:
+        <b> 声明 </b> </br>
+        待定.
+
+
+  privacy:
+    content_html:
+      main_content:
+        <P> <b> 规章 </b> </p> 
+        <p> 待定 </p> 
+
+
+  sell:
+    content_html:
+      main_content:
+        <h2>卖房</h2>
+        待定
+
+
+  home:
+    landing_hero:
+      landing_title_a:
+        ihomeiworld
+      landing_content_a: >
+        <ul class="list-carousel">
+          <li><i class="fa fa-check-square"></i> 租房 买房 卖房</li>   
+          <li><i class="fa fa-check-square"></i> 房产信息</li>
+        </ul>
+      landing_img:
+        db/example_images/frontpage.jpg
+
+    content_html:
+      main_content: <p><b>重要信息:</b>&nbsp; 待定.</p>
+
+    about_us_services:
+      title_a: 找房
+      content_a: <p>待定</p>
+      title_b: 卖房
+      content_b: <p>待定</p>
+      title_c: 博客
+      content_c: <p>待定</p>
+  
+  about-us:
+    content_html:
+      main_content: <p><b>信息e:</b>&nbsp; 待定</p>
+    our_agency:
+      title_a:
+        关于我们
+      content_a:
+        <p>待定.</p>
+      our_agency_img:
+        db/example_images/agent.jpg
+
